@@ -18,15 +18,7 @@ graph TD
     D --> E[Risk Prediction Model]
     E --> F[Strategy Assignment]
     F --> G[Actionable Insights]
-## Technical Architecture
-```mermaid
-graph TD
-    A[Raw Loan Data] --> B[Data Preprocessing]
-    B --> C[Feature Engineering]
-    C --> D[Borrower Segmentation]
-    D --> E[Risk Prediction Model]
-    E --> F[Strategy Assignment]
-    F --> G[Actionable Insights]
+
 Dataset Overview
 Contains 21 features across 10,000 loan records:
 
@@ -35,7 +27,7 @@ Borrower Profile	Age, Income, Employment Type
 Loan Details	Amount, Tenure, Interest Rate
 Payment Behavior	Missed Payments, Days Past Due
 Recovery Information	Collection Methods, Legal Actions
-Download Dataset
+
 
 Methodology
 1. Data Preprocessing
@@ -46,8 +38,8 @@ Created financial ratios:
 python
 df['Income_to_EMI_Ratio'] = df['Monthly_Income'] / df['Monthly_EMI']
 df['Utilization_Ratio'] = df['Outstanding_Loan_Amount'] / df['Loan_Amount']
+
 2. Borrower Segmentation (K-Means Clustering)
-https://via.placeholder.com/600x400?text=Borrower+Segmentation+Visualization
 
 Identified 4 distinct borrower profiles:
 
@@ -88,9 +80,6 @@ def assign_recovery_strategy(risk_score, segment):
         return "Custom repayment plans"
     ...
 Installation
-bash
-# Clone repository
-git clone https://github.com/yourusername/loan-recovery-system.git
 
 # Install dependencies
 pip install -r requirements.txt
