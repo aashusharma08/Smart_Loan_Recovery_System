@@ -67,7 +67,7 @@ Precision	0.89
 Recall	0.94
 F1-Score	0.91
 4. Recovery Strategy Engine
-https://via.placeholder.com/500x300?text=Strategy+Distribution+Pie+Chart
+
 
 Dynamic strategy assignment based on risk score and segment:
 
