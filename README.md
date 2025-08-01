@@ -133,24 +133,4 @@ License
 MIT License - See LICENSE for details
 
 
-### GitHub Repository Structure:
-loan-recovery-system/
-├── data/
-│ ├── loan_recovery.csv # Raw dataset
-│ └── loan_recovery_strategies.csv# Processed output
-├── models/
-│ └── risk_model.pkl # Trained model
-├── notebooks/
-│ └── Loan_Recovery_System.ipynb # Jupyter notebook
-├── src/
-│ ├── main.py # Main script
-│ ├── preprocessing.py # Data processing
-│ ├── modeling.py # ML models
-│ └── visualization.py # Plot generation
-├── requirements.txt # Dependencies
-├── LICENSE
-└── README.md # This file
 
-
-any
-5. Add a demo video/GIF if possible
