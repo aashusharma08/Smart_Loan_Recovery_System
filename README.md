@@ -10,8 +10,7 @@ A machine learning-powered solution that helps financial institutions optimize l
 - **Early Warning**: Flags high-risk borrowers 3-6 months before potential default
 
 ## Technical Architecture
-```mermaid
-graph TD
+
     A[Raw Loan Data] --> B[Data Preprocessing]
     B --> C[Feature Engineering]
     C --> D[Borrower Segmentation]
